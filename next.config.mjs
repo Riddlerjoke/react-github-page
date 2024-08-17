@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/react-github-page/gh-pages",
+    basePath: "/react-github-page",
+    assetPrefix: '/react-github-page/',
     output: "export",
     reactStrictMode: true,
 };
