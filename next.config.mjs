@@ -3,7 +3,6 @@ const nextConfig = {
     basePath: "/react-github-page",
     assetPrefix: '/react-github-page/',
     output: "export",
-    reactStrictMode: true,
 };
 
 export default nextConfig;
