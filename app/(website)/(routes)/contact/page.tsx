@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '@/components/homepageprops/Navbar';
 
 export default function Contact() {
   return (
