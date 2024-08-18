@@ -9,11 +9,20 @@ const repositories = [
     link: 'https://github.com/Riddlerjoke/password',
   },
   {
+    name: 'Test de qualité de l\'eau / EDA',
+    description: 'Ce projet est un test de qualité de l\'eau réalisé avec Python et Jupyter Notebook pour l\'analyse exploratoire des données.',
+    link: 'https://github.com/Riddlerjoke/WaterQualityEDA',
+  },
+      {
+    name: 'Clever-door',
+    description: 'Face-Login System, une solution innovante de connexion et d\'inscription basée sur la reconnaissance faciale pour l\'authentification des utilisateurs. Ce projet utilise le puissant modèle d\'apprentissage profond FaceNet implémenté avec le framework Flask pour exécuter le modèle neuronal Keras, ainsi que MongoDB comme base de données backend.',
+    link: 'https://github.com/Riddlerjoke/Clever-door',
+  },
+      {
     name: 'UK WildlifeTracker DockerEdition',
     description: 'Un projet de suivi de la faune sauvage du Royaume-Uni, réalisé avec streamlit et Docker.',
     link: 'https://github.com/Riddlerjoke/UK-WildlifeTracker-DockerEdition',
-  },
-  // Ajoutez d'autres repositories ici
+  }
 ];
 
 export default function Home() {
