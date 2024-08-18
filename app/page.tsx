@@ -31,7 +31,7 @@ export default function Home() {
 
       <div className="relative z-[-1] flex place-items-center">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="next.svg"
           alt="Next.js Logo"
           width={180}
