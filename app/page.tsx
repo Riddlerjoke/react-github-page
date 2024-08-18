@@ -4,14 +4,14 @@ import Card  from '@/components/homepageprops/presentation-card';
 
 const repositories = [
   {
-    name: 'Repo 1',
-    description: 'Description of Repo 1',
-    link: 'https://github.com/username/repo1',
+    name: 'Création d&apos;un générateur de mot de passe en python',
+    description: 'ce programme permet de générer des mots de passe aléatoires en python.',
+    link: 'https://github.com/Riddlerjoke/password',
   },
   {
-    name: 'Repo 2',
-    description: 'Description of Repo 2',
-    link: 'https://github.com/username/repo2',
+    name: 'UK WildlifeTracker DockerEdition',
+    description: 'Un projet de suivi de la faune sauvage du Royaume-Uni, réalisé avec streamlit et Docker.',
+    link: 'https://github.com/Riddlerjoke/UK-WildlifeTracker-DockerEdition',
   },
   // Ajoutez d'autres repositories ici
 ];
