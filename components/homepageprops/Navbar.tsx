@@ -55,7 +55,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 flex flex-col w-full bg-gray-900 text-white">
       <div className="flex justify-between items-center px-6 py-4">
-        <Link href="/">
+        <Link href="/homepage.html">
             <a className="flex items-center space-x-2">
                 <Image
                 src="logojwfwhite1.png"
