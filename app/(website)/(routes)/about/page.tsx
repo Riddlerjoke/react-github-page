@@ -17,7 +17,7 @@ export default function About() {
           I am a passionate developer with experience in various technologies...
         </p>
         <div className="w-full max-w-3xl">
-          <h2 className="text-3xl font-bold mb-4">My Professional Journey</h2>
+          <h2 className="text-3xl font-bold mb-4 p-2 justify-center">My Professional Journey</h2>
           <Image src="/path-to-your-infographic.png" alt="Infographic" width={800} height={600} />
         </div>
       </main>
