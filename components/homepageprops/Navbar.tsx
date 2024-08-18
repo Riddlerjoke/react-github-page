@@ -30,7 +30,7 @@ const routes = [
   },
   {
     label: "Projects",
-    href: "/projects",
+    href: "/project",
     icon: Folder,
     color: "text-yellow-500",
   },
@@ -56,28 +56,15 @@ const Navbar = () => {
     <div className="sticky top-0 z-50 flex flex-col w-full bg-gray-900 text-white">
       <div className="flex justify-between items-center px-6 py-4">
         <Link href="/">
-            <div className="flex items-center">
-                {/* Image for light mode */}
-            <div className="block dark:hidden">
-              <Image
-                alt="Logo Light"
-                src="/ManagiaLogo-BR.png"
-                width={150}
-                height={50}
-                layout="fixed"
-              />
-            </div>
-            {/* Image for dark mode */}
-            <div className="hidden dark:block">
-              <Image
-                alt="Logo Dark"
-                src="/managialogo-nr.png"
-                width={150}
-                height={50}
-                layout="fixed"
-              />
-            </div>
-          </div>
+            <a className="flex items-center space-x-2">
+                <Image
+                src="/path-to-your-logo.png"
+                alt="Logo"
+                width={40}
+                height={40}
+                />
+                <span className="text-xl font-semibold">Your Name</span>
+            </a>
         </Link>
         <nav className="flex space-x-4">
           {routes.map((route) => (
