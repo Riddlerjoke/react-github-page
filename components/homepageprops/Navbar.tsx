@@ -58,7 +58,7 @@ const Navbar = () => {
         <Link href="/homepage.html">
             <a className="flex items-center space-x-2">
                 <Image
-                src="logojwfwhite1.png"
+                src="logotwitch2.png"
                 alt="Logo"
                 width={40}
                 height={40}

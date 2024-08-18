@@ -11,7 +11,7 @@ export default function About() {
     <div>
       <Banner />
       <Navbar />
-      <main className="flex flex-col items-center min-h-screen p-24 bg-black text-white">
+      <main className="flex flex-col items-center min-h-screen p-24 bg-white text-black">
         <h1 className="text-4xl font-bold mb-8">About Me</h1>
         <p className="text-xl mb-8">
           I am a passionate developer with experience in various technologies...

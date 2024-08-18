@@ -33,7 +33,7 @@ export default function Projects() {
     <div>
       <Banner />
       <Navbar />
-      <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-black text-white">
+      <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-white text-black">
         <h1 className="text-4xl font-bold mb-8">My GitHub Repositories</h1>
         <div className="grid gap-6 lg:grid-cols-3">
           {repositories.map((repo) => (
