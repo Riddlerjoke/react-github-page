@@ -2,7 +2,7 @@
   "name": "mygithubpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Riddlerjoke.github.io/react-github-page",
+  "homepage": "https://Riddlerjoke.github.io/react-github-page/homepage",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

@@ -1,10 +1,12 @@
 "use client";
 
 import React from 'react';
+import Navbar from '@/components/homepageprops/Navbar';
 
 export default function Contact() {
   return (
     <div>
+      <Navbar />
       <main className="flex flex-col items-center min-h-screen p-24 bg-black text-white">
         <h1 className="text-4xl font-bold mb-8">Contact Me</h1>
         <p className="text-xl mb-8">Feel free to reach out to me via any of the following platforms:</p>
