@@ -3,6 +3,7 @@
 import React from 'react';
 import Navbar from '@/components/homepageprops/Navbar';
 import Card from '@/components/homepageprops/presentation-card';
+import Banner from "@/components/homepageprops/Banner";
 
 const repositories = [
   {
@@ -30,6 +31,7 @@ const repositories = [
 export default function Projects() {
   return (
     <div>
+      <Banner />
       <Navbar />
       <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-black text-white">
         <h1 className="text-4xl font-bold mb-8">My GitHub Repositories</h1>
