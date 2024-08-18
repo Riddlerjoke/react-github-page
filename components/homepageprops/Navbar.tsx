@@ -63,7 +63,7 @@ const Navbar = () => {
                 width={40}
                 height={40}
                 />
-                <span className="text-xl font-semibold">Your Name</span>
+                <span className="text-xl font-semibold">Riddlerjoke</span>
             </a>
         </Link>
         <nav className="flex space-x-4">
