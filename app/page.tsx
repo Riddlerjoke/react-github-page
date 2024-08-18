@@ -4,7 +4,7 @@ import Card  from '@/components/homepageprops/presentation-card';
 
 const repositories = [
   {
-    name: 'Création d&apos;un générateur de mot de passe en python',
+    name: 'Création d\'un générateur de mot de passe en python',
     description: 'ce programme permet de générer des mots de passe aléatoires en python.',
     link: 'https://github.com/Riddlerjoke/password',
   },
