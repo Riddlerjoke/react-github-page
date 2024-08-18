@@ -1,40 +1,20 @@
-import Image from 'next/image';
+import React from 'react';
 import Link from 'next/link';
-import Card  from '@/components/homepageprops/presentation-card';
-
-const repositories = [
-  {
-    name: 'Création d\'un générateur de mot de passe en python',
-    description: 'ce programme permet de générer des mots de passe aléatoires en python.',
-    link: 'https://github.com/Riddlerjoke/password',
-  },
-  {
-    name: 'Test de qualité de l\'eau / EDA',
-    description: 'Ce projet est un test de qualité de l\'eau réalisé avec Python et Jupyter Notebook pour l\'analyse exploratoire des données.',
-    link: 'https://github.com/Riddlerjoke/WaterQualityEDA',
-  },
-      {
-    name: 'Clever-door',
-    description: 'Face-Login System, une solution innovante de connexion et d\'inscription basée sur la reconnaissance faciale pour l\'authentification des utilisateurs. Ce projet utilise le puissant modèle d\'apprentissage profond FaceNet implémenté avec le framework Flask pour exécuter le modèle neuronal Keras, ainsi que MongoDB comme base de données backend.',
-    link: 'https://github.com/Riddlerjoke/Clever-door',
-  },
-      {
-    name: 'UK WildlifeTracker DockerEdition',
-    description: 'Un projet de suivi de la faune sauvage du Royaume-Uni, réalisé avec streamlit et Docker.',
-    link: 'https://github.com/Riddlerjoke/UK-WildlifeTracker-DockerEdition',
-  }
-];
+import Navbar from '@/components/homepageprops/Navbar';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-black text-white">
-      <h1 className="text-4xl font-bold mb-8">My GitHub Repositories</h1>
-
-      <div className="grid gap-6 lg:grid-cols-3">
-        {repositories.map((repo) => (
-          <Card key={repo.name} name={repo.name } description={repo.description} link={repo.link} />
-        ))}
-      </div>
-    </main>
+    <div>
+      <Navbar />
+      <main className="flex flex-col items-center justify-center min-h-screen bg-black text-white">
+        <h1 className="text-6xl font-bold mb-8">Welcome to My Portfolio</h1>
+        <p className="text-2xl mb-8">Explore my work and get to know me better.</p>
+        <Link href="/project">
+          <div className="bg-blue-500 text-white px-6 py-3 rounded-md text-lg hover:bg-blue-600">
+            View My Projects
+          </div>
+        </Link>
+      </main>
+    </div>
   );
 }
