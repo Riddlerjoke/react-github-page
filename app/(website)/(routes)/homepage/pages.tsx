@@ -1,89 +1,40 @@
-"use client";
+import Image from 'next/image';
+import Link from 'next/link';
+import Card  from '@/components/homepageprops/presentation-card';
 
-
-import { ArrowRight, Code, Files, LayoutDashboardIcon, MessageSquare, Settings, Clapperboard, Camera } from "lucide-react";
-
-import { Card } from "@/components/ui/Card";
-import { cn } from "@/lib/utils";
-import { useRouter } from "next/navigation";
-
-
-
-const tools = [
-    {
-        label: "Conversation",
-        href: "/conversation",
-        icon: MessageSquare,
-        color: "text-violet-500",
-        bgColor: "bg-violet-500/10",
-    },
-    // {
-    //     label: "Code Generator",
-    //     href: "/codegenerator",
-    //     icon: Code,
-    //     color: "text-green-500",
-    //     bgColor: "bg-green-500/10",
-    // },
-    {
-        label: "Image Generator",
-        href: "/imagegenerator",
-        icon: Camera,
-        color: "text-blue-500",
-        bgColor: "bg-blue-500/10",
-    },
-    {
-        label: "Video Generator",
-        href: "/videogenerator",
-        icon: Clapperboard,
-        color: "text-orange-500",
-        bgColor: "bg-orange-500/10",
-    },
-    {
-        label: "Docs",
-        href: "/documentations",
-        icon: Files,
-        color: "text-pink-500",
-        bgColor: "bg-pink-500/10",
-    },
-    {
-        label: "Settings",
-        href: "/settings",
-        icon: Settings,
-        color: "text-red-500",
-        bgColor: "bg-red-500/10",
-    },
+const repositories = [
+  {
+    name: 'Création d\'un générateur de mot de passe en python',
+    description: 'ce programme permet de générer des mots de passe aléatoires en python.',
+    link: 'https://github.com/Riddlerjoke/password',
+  },
+  {
+    name: 'Test de qualité de l\'eau / EDA',
+    description: 'Ce projet est un test de qualité de l\'eau réalisé avec Python et Jupyter Notebook pour l\'analyse exploratoire des données.',
+    link: 'https://github.com/Riddlerjoke/WaterQualityEDA',
+  },
+      {
+    name: 'Clever-door',
+    description: 'Face-Login System, une solution innovante de connexion et d\'inscription basée sur la reconnaissance faciale pour l\'authentification des utilisateurs. Ce projet utilise le puissant modèle d\'apprentissage profond FaceNet implémenté avec le framework Flask pour exécuter le modèle neuronal Keras, ainsi que MongoDB comme base de données backend.',
+    link: 'https://github.com/Riddlerjoke/Clever-door',
+  },
+      {
+    name: 'UK WildlifeTracker DockerEdition',
+    description: 'Un projet de suivi de la faune sauvage du Royaume-Uni, réalisé avec streamlit et Docker.',
+    link: 'https://github.com/Riddlerjoke/UK-WildlifeTracker-DockerEdition',
+  }
 ];
 
-const DashboardPage = () => {
-    const router = useRouter();
-    return (
-        <div className="bg-white dark:bg-[#111827] min-h-screen">
+export default function Home() {
+  return (
+    <main className="flex flex-col items-center justify-between min-h-screen p-24 bg-black text-white">
+      <h1 className="text-4xl font-bold mb-8">My GitHub Repositories</h1>
 
-            {/* Contenu principal de la page */}
-            <div className={"mb-8 space-y-4"}>
-                <h2 className={"text-2xl md:text-4xl font-bold text-center"}>Tableau de bord</h2>
-                <p className={"text-muted-foreground font-light text-sm md:text-lg text-center"}>Bienvenue sur ManagIA !</p>
-            </div>
-            <div className={"px-4 md:px-20 lg:px-32 space-y-4"}>
-                {tools.map((tool, index) => (
-                    <Card
-                        onClick={() => router.push(tool.href)}
-                        key={tool.href}
-                        className={"p-4 border-black/10 dark:border-white/10 flex items-center hover:shadow-accent-foreground justify-between transition cursor-pointer"}>
-                        <div className={"flex items-center gap-x-4"}>
-                            <div className={cn("p-2 w-fit rounded-md", tool.bgColor)}>
-                                <tool.icon className={cn(tool.color)} />
-                            </div>
-                            <div>
-                                <h3 className={"text-lg font-semibold"}>{tool.label}</h3>
-                            </div>
-                        </div>
-                        <ArrowRight className={"w-5 h-5"} />
-                    </Card>
-                ))}
-            </div>
-        </div>
-    );
+      <div className="grid gap-6 lg:grid-cols-3">
+        {repositories.map((repo) => (
+          <Card key={repo.name} name={repo.name } description={repo.description} link={repo.link} />
+        ))}
+      </div>
+    </main>
+  );
 }
-
-export default (DashboardPage);
