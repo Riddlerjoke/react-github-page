@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Banner />
       <Navbar />
-      <main className="flex flex-col items-center mt-8 min-h-screen bg-white text-black">
+      <main className="flex flex-col items-center mt-24 min-h-screen bg-white text-black">
         <h1 className="text-6xl font-bold mt-2 ">Welcome to My Portfolio</h1>
         <p className="text-2xl mt-2 ">Explore my work and get to know me better.</p>
       </main>
