@@ -13,8 +13,8 @@ export default function Home() {
       <Banner />
       <Navbar />
       <main className="flex flex-col items-center justify-center min-h-screen bg-white text-black">
-        <h1 className="text-6xl font-bold mb-8">Welcome to My Portfolio</h1>
-        <p className="text-2xl mb-8">Explore my work and get to know me better.</p>
+        <h1 className="text-6xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <p className="text-2xl mb-4">Explore my work and get to know me better.</p>
       </main>
     </div>
   );
