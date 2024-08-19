@@ -4,7 +4,7 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div className="w-full">
-      <div className="relative w-full h-52 p-2 m-2">
+      <div className="relative w-full h-52 justify-items-center ">
         <Image
           src={"banner.png"}
           alt={"Bannière personnalisée"}
