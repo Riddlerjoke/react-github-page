@@ -4,9 +4,15 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <div className="w-full">
-        <div className="w-full h-40">
-            <Image src={"banner.png"} alt={"bannière personnalisée"} className={''} />
-        </div>
+      <div className="relative w-full h-40">
+        <Image
+          src={"banner.png"}
+          alt={"Bannière personnalisée"}
+          layout="fill"
+          objectFit="cover"
+          className="object-cover"
+        />
+      </div>
     </div>
   );
 };
