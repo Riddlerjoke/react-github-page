@@ -6,6 +6,7 @@ import Image from "next/image";
 import Navbar from "@/components/homepageprops/Navbar";
 import Banner from "@/components/homepageprops/Banner";
 import Footer from "@/components/Footer";
+import avatarImg from "@/public/logojwfwhite1.png";
 import {
   Briefcase,
   GraduationCap,
@@ -81,7 +82,7 @@ export default function About() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-36 h-36 sm:w-44 sm:h-44 rounded-2xl overflow-hidden bg-gray-900 border-2 border-gray-200 shadow-md flex-shrink-0">
               <Image
-                src="/logojwfwhite1.png"
+                src={avatarImg}
                 alt="Jay Wayne Fairey"
                 fill
                 className="object-contain p-3"

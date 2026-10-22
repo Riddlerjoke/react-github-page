@@ -7,6 +7,7 @@ import Navbar from "@/components/homepageprops/Navbar";
 import Banner from "@/components/homepageprops/Banner";
 import Footer from "@/components/Footer";
 import Card from "@/components/homepageprops/presentation-card";
+import avatarImg from "@/public/logojwfwhite1.png";
 import {
   ArrowRight,
   Code2,
@@ -238,7 +239,7 @@ export default function Home() {
           <div className="bg-gradient-to-r from-gray-900 to-gray-800 text-white rounded-2xl p-8 sm:p-12 shadow-xl flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden border-4 border-blue-500/30 flex-shrink-0 bg-gray-700">
               <Image
-                src="/logojwfwhite1.png"
+                src={avatarImg}
                 alt="Portrait / Logo de Jay Wayne Fairey"
                 fill
                 className="object-contain p-2"

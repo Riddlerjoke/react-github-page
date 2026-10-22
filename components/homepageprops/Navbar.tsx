@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import logoImg from "@/public/logotwitch2.png";
 import {
   Home,
   User,
@@ -57,7 +58,7 @@ const Navbar = () => {
         >
           <div className="relative w-9 h-9 rounded-full overflow-hidden bg-gray-800 border border-gray-700 flex items-center justify-center">
             <Image
-              src="/logotwitch2.png"
+              src={logoImg}
               alt="Logo Jay Wayne Fairey"
               width={36}
               height={36}

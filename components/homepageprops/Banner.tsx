@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import bannerImg from "@/public/banner.png";
 
 const Banner = () => {
   return (
     <div className="w-full relative h-48 sm:h-64 md:h-72 overflow-hidden bg-gray-900 shadow-inner">
       <Image
-        src="/banner.png"
+        src={bannerImg}
         alt="Bannière Jay Wayne Fairey"
         fill
         priority
