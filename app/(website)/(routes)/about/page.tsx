@@ -26,47 +26,47 @@ interface ExperienceItem {
 
 const experiences: ExperienceItem[] = [
   {
-    period: "2023 - Présent",
-    role: "Développeur Full-Stack & Solutions Data",
-    company: "Projets Indépendants & Open Source",
+    period: "Projets & Open Source",
+    role: "Ingénierie des Données, Machine Learning & DevOps",
+    company: "GitHub / Projets Personnels & Collaboratifs",
     description:
-      "Conception d'architectures applicatives modernes, intégration de modèles d'IA et de systèmes de reconnaissance biométrique, déploiement conteneurisé.",
+      "Conception de pipelines de données (ELT), création d'architectures distribuées (clusters Cassandra & MongoDB avec réplication/sharding) et modélisation prédictive en Machine Learning supervisé sous conteneurs Docker.",
     highlights: [
-      "Développement d'interfaces Next.js / TypeScript réactives et accessibles",
-      "Implémentation de pipelines de Computer Vision et FaceNet avec Flask/Keras",
-      "Conteneurisation d'applications de visualisation avec Docker et Streamlit",
+      "Pipelines de Machine Learning supervisé (Scikit-Learn, FastAPI, Docker Compose, Poetry)",
+      "Déploiement et orchestration de clusters NoSQL (Apache Cassandra multi-nœuds, MongoDB Sharding/ReplicaSet)",
+      "Pipelines industriels d'ingestion et validation de flux de données (Polars, Pandas, ELT)",
     ],
   },
   {
-    period: "2021 - 2023",
-    role: "Designer UI/UX & Intégrateur Web",
-    company: "Création Numérique & Conseil",
+    period: "Projets Web & Solutions Interactives",
+    role: "Développement Full-Stack, Visualisation & APIs",
+    company: "GitHub / Projets Web & SaaS",
     description:
-      "Accompagnement de projets dans la définition de chartes graphiques, ergonomie des parcours utilisateurs et intégration front-end responsive.",
+      "Développement d'applications web interactives et de tableaux de bord de visualisation de données combinant des backends Python performants à des interfaces modernes.",
     highlights: [
-      "Conception de design systems modulaires et évolutifs",
-      "Intégration HTML5/CSS3/Tailwind respectant les standards WCAG",
-      "Optimisation des performances et du SEO technique",
+      "Applications de visualisation interactives et géospatiales (Streamlit, FastAPI, Docker)",
+      "Interfaces web réactives et performantes avec Next.js 14 (App Router), TypeScript et Tailwind CSS",
+      "Intégration de bases de données vectorielles (Milvus) et d'architectures Cloud / AWS",
     ],
   },
 ];
 
 const technicalSkills = [
   {
-    category: "Front-End & UI",
-    skills: ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "HTML5/CSS3"],
+    category: "Data Engineering & BDD",
+    skills: ["Apache Cassandra", "MongoDB (ReplicaSet / Sharding)", "MySQL", "Polars", "Pandas", "Pipelines ELT / ETL", "Validation de données"],
   },
   {
-    category: "Back-End & Data",
-    skills: ["Python", "Flask", "Node.js", "MongoDB", "Pandas", "Streamlit", "REST APIs"],
+    category: "Machine Learning & IA",
+    skills: ["Scikit-Learn", "Modélisation supervisée", "Milvus (Vector DB & Embeddings)", "EDA / Data Science", "Jupyter Notebook", "Poetry"],
   },
   {
-    category: "IA & Machine Learning",
-    skills: ["Keras", "FaceNet", "Computer Vision", "EDA / Data Analysis", "Jupyter"],
+    category: "Backend & DevOps",
+    skills: ["FastAPI", "Python", "Flask", "Docker & Docker Compose", "GitHub Actions (CI/CD)", "Git & GitHub", "REST APIs", "Asyncio"],
   },
   {
-    category: "Outils & DevOps",
-    skills: ["Git & GitHub", "Docker", "GitHub Actions", "Vercel", "Figma", "Linux/Bash"],
+    category: "Front-End & Visualisation",
+    skills: ["Next.js 14", "React", "TypeScript", "Tailwind CSS", "Streamlit", "UI/UX & Accessibilité (WCAG)"],
   },
 ];
 
@@ -93,16 +93,16 @@ export default function About() {
             <div className="flex-1 text-center md:text-left">
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold mb-3">
                 <Sparkles className="w-3.5 h-3.5" aria-hidden="true" />
-                <span>Designer & Développeur</span>
+                <span>Data • Machine Learning • Web</span>
               </div>
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                 Jay Wayne Fairey
               </h1>
               <p className="text-gray-600 leading-relaxed text-base sm:text-lg mb-4">
-                Passionné par l&apos;intersection entre design d&apos;interface et ingénierie logicielle, je conçois des outils interactifs, des solutions d&apos;intelligence artificielle et des plateformes web centrées sur l&apos;utilisateur.
+                Développeur passionné par l&apos;ingénierie des données, le Machine Learning et la création d&apos;architectures logicielles modernes. Mon travail s&apos;articule autour de la conception de pipelines de données (ELT), de la mise en place de bases NoSQL et distribuées (Cassandra multi-nœuds, MongoDB sharded), du déploiement de modèles prédictifs (FastAPI, Scikit-Learn, Docker) et de la réalisation d&apos;interfaces interactives (Next.js, TypeScript, Streamlit).
               </p>
               <p className="text-gray-600 leading-relaxed text-base">
-                Mon approche repose sur la clarté visuelle, la rigueur du code, l&apos;accessibilité et la performance.
+                Attaché aux bonnes pratiques d&apos;ingénierie logicielle (reproductibilité, conteneurisation Docker, CI/CD GitHub Actions, typage strict), je développe des solutions robustes de bout en bout, de la donnée brute à la restitution utilisateur.
               </p>
             </div>
           </div>

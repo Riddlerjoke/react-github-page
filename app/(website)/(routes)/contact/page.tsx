@@ -28,7 +28,7 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Simulation / mailto trigger
-    const mailtoUrl = `mailto:jay@lepetitmartin.com?subject=${encodeURIComponent(
+    const mailtoUrl = `mailto:lardicjeremy@gmail.com?subject=${encodeURIComponent(
       formState.subject || "Prise de contact portfolio"
     )}&body=${encodeURIComponent(
       `Nom: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`
@@ -67,16 +67,16 @@ export default function Contact() {
               <ul className="space-y-4">
                 <li>
                   <a
-                    href="mailto:jay@lepetitmartin.com"
+                    href="mailto:lardicjeremy@gmail.com"
                     className="flex items-center p-3 rounded-xl bg-gray-50 hover:bg-emerald-50 text-gray-800 hover:text-emerald-700 border border-gray-100 transition-colors group"
-                    aria-label="Envoyer un e-mail à jay@lepetitmartin.com"
+                    aria-label="Envoyer un e-mail à lardicjeremy@gmail.com"
                   >
                     <div className="w-10 h-10 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center mr-3 group-hover:scale-105 transition-transform">
                       <Mail className="w-5 h-5" aria-hidden="true" />
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">E-mail</p>
-                      <p className="text-sm font-semibold">jay@lepetitmartin.com</p>
+                      <p className="text-sm font-semibold">lardicjeremy@gmail.com</p>
                     </div>
                   </a>
                 </li>
@@ -165,7 +165,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-base mb-1">Message prêt à être envoyé</h3>
                     <p className="text-sm">
-                      Votre client de messagerie a été sollicité avec votre message. Si la fenêtre ne s&apos;est pas ouverte, vous pouvez m&apos;écrire directement à <a href="mailto:jay@lepetitmartin.com" className="underline font-semibold">jay@lepetitmartin.com</a>.
+                      Votre client de messagerie a été sollicité avec votre message. Si la fenêtre ne s&apos;est pas ouverte, vous pouvez m&apos;écrire directement à <a href="mailto:lardicjeremy@gmail.com" className="underline font-semibold">lardicjeremy@gmail.com</a>.
                     </p>
                   </div>
                 </div>

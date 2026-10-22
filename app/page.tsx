@@ -22,81 +22,81 @@ import {
 
 const featuredProjects = [
   {
-    name: "Clever-door (Face-Login System)",
+    name: "Prédiction de Consommation Énergétique des Bâtiments",
     description:
-      "Solution innovante d'authentification faciale basée sur le modèle d'apprentissage profond FaceNet avec Flask, Keras et base de données MongoDB.",
-    link: "https://github.com/Riddlerjoke/Clever-door",
-    github: "https://github.com/Riddlerjoke/Clever-door",
-    tags: ["Python", "FaceNet", "Flask", "Keras", "MongoDB"],
-    category: "IA & Reconnaissance",
+      "Modélisation prédictive en Machine Learning supervisé (Scikit-Learn, Poetry) pour estimer la consommation énergétique des bâtiments, avec pipeline complet d'ingestion/feature engineering, API FastAPI et déploiement conteneurisé Docker Compose.",
+    link: "https://github.com/Riddlerjoke/ML-project-anticipate-building-consumption",
+    github: "https://github.com/Riddlerjoke/ML-project-anticipate-building-consumption",
+    tags: ["Python", "Machine Learning", "Scikit-Learn", "FastAPI", "Docker", "Poetry"],
+    category: "Machine Learning & IA",
   },
   {
-    name: "UK WildlifeTracker DockerEdition",
+    name: "Forecast 2.0 – ELT Weather Data Pipeline",
     description:
-      "Plateforme interactive de visualisation et de suivi de la faune sauvage du Royaume-Uni, conteneurisée avec Docker et propulsée par Streamlit.",
+      "Pipeline d'ingénierie de données industriel pour ingérer, transformer, valider et exposer des flux de données météorologiques destinées aux modèles de prévision de la demande en électricité.",
+    link: "https://github.com/Riddlerjoke/forecast-project",
+    github: "https://github.com/Riddlerjoke/forecast-project",
+    tags: ["Python", "Data Engineering", "ELT Pipeline", "Data Validation", "Docker"],
+    category: "Data Engineering & BDD",
+  },
+  {
+    name: "Restored Database – FastAPI, Polars & Cluster MongoDB",
+    description:
+      "Plateforme d'ingestion et d'analyse statistique haute performance (Polars) connectée à MongoDB. Gestion d'architectures Docker avancées : instance simple, replica set et cluster shardé.",
+    link: "https://github.com/Riddlerjoke/restored-database",
+    github: "https://github.com/Riddlerjoke/restored-database",
+    tags: ["FastAPI", "MongoDB", "Polars", "Docker Sharding", "ReplicaSet", "Python"],
+    category: "Data Engineering & BDD",
+  },
+  {
+    name: "Cluster NoSQL Cassandra & API FastAPI",
+    description:
+      "Mise en place et orchestration sous Docker d'un cluster Apache Cassandra distribué à deux nœuds répliqués, interfacé avec des endpoints REST FastAPI pour les opérations et requêtes CQL.",
+    link: "https://github.com/Riddlerjoke/API-Cassandra-Docker",
+    github: "https://github.com/Riddlerjoke/API-Cassandra-Docker",
+    tags: ["Apache Cassandra", "NoSQL", "Docker", "FastAPI", "Python", "CQL"],
+    category: "Data Engineering & BDD",
+  },
+  {
+    name: "UK WildlifeTracker – Visualisation Géospatiale & FastAPI",
+    description:
+      "Application interactive de cartographie et d'analyse spatio-temporelle de la faune sauvage. Architecture découplée associant un backend FastAPI et une interface de visualisation Streamlit sous conteneur Docker.",
     link: "https://github.com/Riddlerjoke/UK-WildlifeTracker-DockerEdition",
     github: "https://github.com/Riddlerjoke/UK-WildlifeTracker-DockerEdition",
-    tags: ["Streamlit", "Docker", "Python", "Data Viz"],
-    category: "Data & DevOps",
+    tags: ["Streamlit", "FastAPI", "Docker", "Python", "Data Viz", "Geospatial"],
+    category: "Data Viz & Web",
   },
   {
-    name: "Test de qualité de l'eau / EDA",
+    name: "Qualité de l'Eau – EDA & Modèles IA Supervisés",
     description:
-      "Analyse exploratoire de données (EDA) sur des jeux de données de potabilité de l'eau avec Python, Pandas, Seaborn et Jupyter Notebook.",
+      "Exploration approfondie (EDA) de données physico-chimiques sur la potabilité de l'eau, analyse des corrélations et entraînement de modèles de classification supervisée avec Scikit-Learn et Pandas.",
     link: "https://github.com/Riddlerjoke/WaterQualityEDA",
     github: "https://github.com/Riddlerjoke/WaterQualityEDA",
-    tags: ["Python", "Jupyter", "Pandas", "EDA", "Data Science"],
-    category: "Data Science",
-  },
-  {
-    name: "Générateur de mot de passe sécurisé",
-    description:
-      "Application de génération de mots de passe cryptographiquement sécurisés et personnalisables en Python avec gestion de robustesse.",
-    link: "https://github.com/Riddlerjoke/password",
-    github: "https://github.com/Riddlerjoke/password",
-    tags: ["Python", "Sécurité", "CLI / GUI"],
-    category: "Sécurité & Outils",
-  },
-  {
-    name: "Portfolio Moderne Next.js & Tailwind",
-    description:
-      "Site portfolio statique ultra-rapide optimisé pour GitHub Pages, intégrant Next.js 14, Tailwind CSS, SEO optimisé et accessibilité WCAG.",
-    link: "https://github.com/Riddlerjoke/react-github-page",
-    github: "https://github.com/Riddlerjoke/react-github-page",
-    tags: ["Next.js 14", "TypeScript", "Tailwind CSS", "GitHub Pages"],
-    category: "Web & Design",
-  },
-  {
-    name: "Dashboard & Visualisation Interactive",
-    description:
-      "Interface dynamique pour l'exploration de métriques analytiques avec graphiques en temps réel et composants UI sur mesure.",
-    link: "https://github.com/Riddlerjoke",
-    github: "https://github.com/Riddlerjoke",
-    tags: ["React", "TypeScript", "Tailwind", "Analytics"],
-    category: "Frontend UI",
+    tags: ["Python", "Pandas", "Seaborn", "Jupyter", "Scikit-Learn", "EDA"],
+    category: "Machine Learning & IA",
   },
 ];
 
 const skills = [
   {
-    icon: Code2,
-    title: "Développement Web",
-    desc: "Next.js, React, TypeScript, Node.js, Tailwind CSS, API REST",
+    icon: Terminal,
+    title: "Data Engineering & BDD",
+    desc: "Pipelines ELT/ETL, Apache Cassandra (cluster NoSQL), MongoDB (ReplicaSet & Sharding), Polars, Pandas",
   },
   {
-    icon: Terminal,
-    title: "Data & Intelligence Artificielle",
-    desc: "Python, Flask, Keras, FaceNet, Pandas, Streamlit, Jupyter",
+    icon: Sparkles,
+    title: "Machine Learning & IA",
+    desc: "Scikit-Learn, modélisation supervisée & classification, Milvus (Vector DB & embeddings), analyses exploratoires (EDA)",
   },
   {
     icon: Layers,
-    title: "DevOps & Infrastructure",
-    desc: "Docker, GitHub Actions, CI/CD, Git, Déploiements cloud",
+    title: "Backend, APIs & DevOps",
+    desc: "FastAPI, Flask, Python, Docker & Docker Compose, Poetry, GitHub Actions CI/CD, Git",
   },
   {
-    icon: Palette,
-    title: "UI / UX Design",
-    desc: "Design d'interfaces, accessibilité (a11y), responsive design, prototypage",
+    icon: Code2,
+    title: "Frontend & Visualisation Web",
+    desc: "React, Next.js 14, TypeScript, Tailwind CSS, Streamlit, ergonomie UI et accessibilité (a11y)",
   },
 ];
 
@@ -120,11 +120,11 @@ export default function Home() {
             </h1>
 
             <p className="text-lg sm:text-2xl text-gray-300 font-light max-w-3xl mb-8 leading-relaxed">
-              <span className="text-blue-400 font-medium">Designer & Développeur</span> passionné par l&apos;intelligence artificielle, la data et les interfaces web modernes.
+              <span className="text-blue-400 font-medium">Développeur Data, Machine Learning & Solutions Web</span>. Passionné par l&apos;ingénierie des données, les architectures distribuées et l&apos;IA appliquée.
             </p>
 
             <p className="text-gray-400 max-w-2xl mb-10 text-base sm:text-lg">
-              Je conçois et développe des applications web performantes, du backend d&apos;analyse de données aux expériences utilisateur soignées.
+              Je conçois des pipelines de données fiables (ELT, clusters Cassandra / MongoDB), des modèles prédictifs (Scikit-Learn) et des applications web modernes (FastAPI, Docker, Next.js).
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
@@ -168,7 +168,7 @@ export default function Home() {
                 Sélection de projets
               </h2>
               <p className="text-gray-600 mt-2 max-w-xl">
-                Une sélection de mes travaux récents en développement web, data science, et intelligence artificielle.
+                Une sélection de réalisations concrètes : pipelines de données, modèles de Machine Learning, clusters de bases de données et interfaces interactives.
               </p>
             </div>
             <Link
@@ -284,11 +284,11 @@ export default function Home() {
                 Prendre contact
               </Link>
               <a
-                href="mailto:jay@lepetitmartin.com"
+                href="mailto:lardicjeremy@gmail.com"
                 className="inline-flex items-center px-6 py-3.5 rounded-lg bg-blue-700 hover:bg-blue-800 text-white font-medium transition-colors"
               >
                 <Mail className="w-4 h-4 mr-2" aria-hidden="true" />
-                <span>jay@lepetitmartin.com</span>
+                <span>lardicjeremy@gmail.com</span>
               </a>
             </div>
           </div>

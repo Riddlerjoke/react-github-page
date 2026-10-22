@@ -12,18 +12,18 @@ export default function Footer() {
           <div className="text-center md:text-left">
             <p className="text-lg font-bold text-white">Jay Wayne Fairey</p>
             <p className="text-sm text-gray-400 mt-1">
-              Designer & Développeur – Création d&apos;expériences web modernes.
+              Développeur Data, Machine Learning & Solutions Web.
             </p>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6">
             <a
-              href="mailto:jay@lepetitmartin.com"
+              href="mailto:lardicjeremy@gmail.com"
               className="flex items-center gap-2 text-sm text-gray-300 hover:text-white transition-colors"
               aria-label="Envoyer un e-mail à Jay Wayne Fairey"
             >
               <Mail className="w-4 h-4 text-emerald-400" aria-hidden="true" />
-              <span>jay@lepetitmartin.com</span>
+              <span>lardicjeremy@gmail.com</span>
             </a>
 
             <div className="flex items-center space-x-4">

@@ -10,12 +10,12 @@ const philosopher = Philosopher({
 });
 
 export const metadata: Metadata = {
-  title: "Jay Wayne Fairey – Portfolio",
-  description: "Designer / Développeur – Sélection de projets, contact, et parcours.",
+  title: "Jay Wayne Fairey – Portfolio Data, IA & Web",
+  description: "Développeur Data, Machine Learning & Solutions Web – Projets, pipelines ELT, IA et architectures modernes.",
   metadataBase: new URL("https://riddlerjoke.github.io/react-github-page/"),
   openGraph: {
-    title: "Jay Wayne Fairey – Portfolio",
-    description: "Designer / Développeur – Sélection de projets, contact, et parcours.",
+    title: "Jay Wayne Fairey – Portfolio Data, IA & Web",
+    description: "Développeur Data, Machine Learning & Solutions Web – Projets, pipelines ELT, IA et architectures modernes.",
     url: "https://riddlerjoke.github.io/react-github-page/",
     siteName: "Jay Wayne Fairey Portfolio",
     images: [
