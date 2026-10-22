@@ -57,7 +57,7 @@ const Navbar = () => {
         >
           <div className="relative w-9 h-9 rounded-full overflow-hidden bg-gray-800 border border-gray-700 flex items-center justify-center">
             <Image
-              src="/public/logotwitch2.png"
+              src="/logotwitch2.png"
               alt="Logo Jay Wayne Fairey"
               width={36}
               height={36}
