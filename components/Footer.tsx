@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <p className="text-lg font-bold text-white">Jay Wayne Fairey</p>
+            <p className="text-lg font-bold text-white">Riddlerjoke</p>
             <p className="text-sm text-gray-400 mt-1">
               Développeur Data, Machine Learning & Solutions Web.
             </p>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-400 gap-4">
-          <p>© {currentYear} Jay Wayne Fairey. Tous droits réservés.</p>
+          <p>© {currentYear} Riddlerjoke. Tous droits réservés.</p>
           <div className="flex items-center gap-4">
             <Link href="/" className="hover:underline">Accueil</Link>
             <Link href="/about" className="hover:underline">À propos</Link>
