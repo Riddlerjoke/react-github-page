@@ -95,17 +95,6 @@ const Navbar = () => {
               </Link>
             );
           })}
-
-          <a
-            href="https://github.com/Riddlerjoke"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center px-3 py-2 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800/60 transition-all"
-            aria-label="Mon CV / Profil GitHub (nouvelle fenêtre)"
-          >
-            <FileText className="w-4 h-4 mr-1.5 text-cyan-400" aria-hidden="true" />
-            <span>CV</span>
-          </a>
         </nav>
       </div>
     </header>
