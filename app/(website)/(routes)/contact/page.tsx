@@ -76,7 +76,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">E-mail</p>
-                      <p className="text-sm font-semibold">lardicjeremy@gmail.com</p>
+                      <p className="text-sm font-semibold hidden">lardicjeremy@gmail.com</p>
                     </div>
                   </a>
                 </li>
