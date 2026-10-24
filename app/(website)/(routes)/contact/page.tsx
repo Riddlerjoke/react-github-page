@@ -76,7 +76,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">E-mail</p>
-                      <p className="text-sm font-semibold blur">lardicjeremy@gmail.com</p>
+                      <p className="text-sm font-semibold hidden">lardicjeremy@gmail.com</p>
                     </div>
                   </a>
                 </li>
@@ -94,7 +94,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">LinkedIn</p>
-                      <p className="text-sm font-semibold">Jeremy Lardic</p>
+                      <p className="text-sm font-semibold hidden">Jeremy Lardic</p>
                     </div>
                   </a>
                 </li>
@@ -112,7 +112,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">GitHub</p>
-                      <p className="text-sm font-semibold">@Riddlerjoke</p>
+                      <p className="text-sm font-semibold hidden">@Riddlerjoke</p>
                     </div>
                   </a>
                 </li>
@@ -130,7 +130,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-xs text-gray-500 font-medium">Instagram</p>
-                      <p className="text-sm font-semibold">@jaywayne_design</p>
+                      <p className="text-sm font-semibold hidden">@jaywayne_design</p>
                     </div>
                   </a>
                 </li>
