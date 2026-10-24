@@ -96,7 +96,7 @@ export default function About() {
                 <span>Data • Machine Learning • Web</span>
               </div>
               <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-                Jay Wayne Fairey
+                Riddlerjoke
               </h1>
               <p className="text-gray-600 leading-relaxed text-base sm:text-lg mb-4">
                 Développeur passionné par l&apos;ingénierie des données, le Machine Learning et la création d&apos;architectures logicielles modernes. Mon travail s&apos;articule autour de la conception de pipelines de données (ELT), de la mise en place de bases NoSQL et distribuées (Cassandra multi-nœuds, MongoDB sharded), du déploiement de modèles prédictifs (FastAPI, Scikit-Learn, Docker) et de la réalisation d&apos;interfaces interactives (Next.js, TypeScript, Streamlit).

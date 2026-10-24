@@ -67,7 +67,7 @@ const Navbar = () => {
             />
           </div>
           <span className="text-lg sm:text-xl font-bold tracking-wide group-hover:text-blue-400 transition-colors">
-            Jay Wayne Fairey
+            Riddlerjoke
           </span>
         </Link>
 

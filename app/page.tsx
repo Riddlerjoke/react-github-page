@@ -116,7 +116,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6">
-              Jay Wayne Fairey
+              Riddlerjoke
             </h1>
 
             <p className="text-lg sm:text-2xl text-gray-300 font-light max-w-3xl mb-8 leading-relaxed">
